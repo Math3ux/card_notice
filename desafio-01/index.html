@@ -7,22 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal de Notícias GALACTICO</title>
     <link rel="stylesheet" href="styles/card.css">
+    <script src="src/components/cardNews.js" defer></script>
+    <script src="src/components/TituloDinamico.js" defer></script>
 </head>
 
 <body>
     <div class="container">
-        <div class="card">
-            <div class="card_left">
-                <span>By Matheus</span>
-                <h1>Darth Vader Contrata Devs</h1>
-                <p>Darth procura desenvolvedores que sabem trabalhar com componentes</p>
-            </div>
-            <div class="card_right">
-                <img src="https://images.pexels.com/photos/4310574/pexels-photo-4310574.jpeg?cs=srgb&dl=pexels-lucas-ianiak-4310574.jpg&fm=jpg"
-                    alt="" width="200px" height="100%">
-            </div>
-        </div>
+        <card-news autor='Matheus' titulo="Darth Vader Contrata Devs"
+            conteudo="Darth procura desenvolvedores que sabem trabalhar com componentes"
+            photo="https://images.pexels.com/photos/4310574/pexels-photo-4310574.jpeg?cs=srgb&dl=pexels-lucas-ianiak-4310574.jpg&fm=jpg">
+        </card-news>
     </div>
+
+
 </body>
 
 </html>
